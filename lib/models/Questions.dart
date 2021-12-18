@@ -10,19 +10,19 @@ const List sample_data = [
   {
     "id": 1,
     "question":
-        "What is a correct syntax to output Hello World in Python?",
-    "options": ['p(hello world)', 'echo(hello world)', 'echo hello world', 'print(hello world)'],
-    "answer_index": 3,
+        "Aue tipo de datos hay en python",
+    "options": ['Numeros , caracteres ,flotantes Y  números complejos ', 'Solo Caracteres', 'Ninguna es correcta', 'Todas Son V'],
+    "answer_index": 0,
   },
   {
     "id": 2,
-    "question": "How do you insert COMMENTS in Python code?",
+    "question": "¿Cómo se insertan COMENTARIOS en el código Python?",
     "options": ['//coment', '#coment', '--coment', '¡coment'],
     "answer_index": 1,
   },
   {
     "id": 3,
-    "question": "Which one is NOT a legal variable name?",
+    "question": "¿Cuál NO es un nombre de variable legal?",
     "options": ['//m', 'variable', '_variable_', 'variable_'],
     "answer_index": 0,
   },
