@@ -1,0 +1,8 @@
+categories:
+- ejercicio_2_Coder_Soldier
+conversations:
+- - ¿Qué te mostrará por pantalla?
+  - En este caso será una cadena de texto, la cual se puede guardar en una variable.
+- - Dame una pista
+  - La expresión print(), imprime un texto en pantalla
+  - ¿Que texto hay guardado en esa variable?

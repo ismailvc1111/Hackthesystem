@@ -1,0 +1,12 @@
+categories:
+- ejercicio_1_Coder_Soldier
+conversations:
+- - ¿Qué tipos de datos básicos existen en python?
+  - Los tipos de datos básicos de Python son los booleanos, los numéricos y las cadenas de caracteres."
+  - Enteros Números y Cadenas de texto, Números y cadenas de texto.
+- - ¿Que tipo de datos númericos existen en python?
+  - Enteros, punto flotante y complejos.
+- - Dame una pista
+  - Me da que necesitarás mas de un tipo
+- - ¿Que són los tipos buleanos?
+  - Son las que devuelven una expresión lógica, ya sabes, verdadero, o falso.

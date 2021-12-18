@@ -1,0 +1,78 @@
+categories:
+- general
+conversations:
+- - Hola!
+  - Hola, ¿En qué te puedo ayudar?
+- - Hola
+  - ¿Qué información necesitas?
+- - Hola
+  - Hola caracola! ¿Cómo va tu día?
+- - Buenas 
+  - Buenas, cómo te va el día
+- - No entiendo nada
+  - No te preocupes, escribe de forma concisa lo que necesitas
+- - ¿Cómo aprender a programar?
+  - Práctica, practica y práctica
+- - Pyhton
+  - ¿Qué información necesitas?
+- - Programar Pyhton
+  - Si quieres saber cursos de python escribe cursos
+- - cursos
+  - https://keepcoding.io/nuestros-bootcamps/
+- - Qué es una variable
+  - Una variable es un contenedor de información, donde guardo cualquier dato, una información. Se pueden crear muchas variables y cada una puede tener diefrentes datos"
+- - ¿Cómo declarar variables?
+  - Si la variable es texto podemos declararla como vartexto=""esto es una variable de texto"" y la imprimimos mediante: print(vartexto)
+- - Tipo de datos
+  - Números,Cadena,Tupla,Diccionario
+- - ¿Se puede escribir acentos en el código?
+  - No, no se puede 
+- - tipos de números
+  - int (enteros con signo), long (enteros largos, también se pueden representar en octal y hexadecimal), float (valores reales de punto flotante), complex (números complejos)
+- - Strings
+  - Las cadenas en Python se identifican como un conjunto contiguo de caracteres representados en las comillas. Python permite pares de comillas simples o dobles. Los subconjuntos de cadenas se pueden tomar usando el operador de segmento ([] y [:]) con índices que comienzan en 0 al principio de la cadena y avanzan desde -1 al final.
+- - cadenas
+  - Las cadenas en Python se identifican como un conjunto contiguo de caracteres representados en las comillas. Python permite pares de comillas simples o dobles. Los subconjuntos de cadenas se pueden tomar usando el operador de segmento ([] y [:]) con índices que comienzan en 0 al principio de la cadena y avanzan desde -1 al final.
+- - Listas
+  - Las listas son los tipos de datos compuestos de Python más versátiles. Una lista contiene elementos separados por comas y encerrados entre corchetes ([]). Hasta cierto punto, las listas son similares a las matrices en C. Una diferencia entre ellas es que todos los elementos que pertenecen a una lista pueden ser de diferentes tipos de datos.
+- - ¿cómo se acceder a los valores de las listas?
+  - Se puede acceder a los valores almacenados en una lista utilizando el operador de división ([] y [:]) con índices que comienzan en 0 al principio de la lista y continúan hasta el final -1. El signo más (+) es el operador de concatenación de lista, y el asterisco (*) es el operador de repetición. 
+- - Ejemplo de lista
+  - lista = ['abcd', 786, 2.23, 'john', 70.2]
+- - imprimir lista
+  - print lista # Imprime lista completa
+- - Imprimir el primer elemento de la lista
+  - print lista [0] # Imprime el primer elemento de la lista
+- - imprimir ciertos elementos de una lista
+  - print lista [1: 3] # Imprime elementos desde el 2 hasta el 3
+- - imprimir a partir de cierto elemento de una lista
+  - print lista [2:] # Imprime elementos a partir del 3er elemento
+- - imprimir la lista dos veces
+  - print tinylist * 2 # Imprime la lista dos veces
+- - Tuplas
+  - Una tupla es otro tipo de datos de secuencia que es similar a la lista. Una tupla consiste en una serie de valores separados por comas. A diferencia de las listas, sin embargo, las tuplas están encerradas entre paréntesis.
+- - Diferencias entre listas y tuplas
+  - Las principales diferencias entre las listas y las tuplas son: Las listas están encerradas entre corchetes ([]) y sus elementos y tamaño se pueden cambiar, mientras que las tuplas se encierran entre paréntesis (()) y no se pueden actualizar. Las tuplas se pueden considerar como listas de solo lectura.
+- - Diccionario
+  - Los diccionarios de Python son un tipo de tabla hash. Funcionan como matrices asociativas o hashes y consisten en pares clave-valor. Una clave de diccionario puede ser de casi cualquier tipo de dato en Python, pero generalmente son números o cadenas. Los valores, por otro lado, pueden ser cualquier objeto Python arbitrario.
+  - Los diccionarios están encerrados entre llaves ({}) y los valores pueden asignarse y accederse utilizando llaves ([]). "
+- - Para qué sirve el FOR
+  - El bucle for es una iteración que recorre los elementos de una secuencia ordenada como listas, diccionarios, tuplas, cadenas, etc.
+- - ¿Cómo se escribe un bucle FOR?
+  - La sintaxis del bucle for en Python es tal que así, for var in sequence dos puntos, statement(s)
+- - qué es FOR en programación
+  - El bucle for es una iteración que recorre los elementos de una secuencia ordenada como listas, diccionarios, tuplas, cadenas, etc.
+- - for en python
+  - El bucle for es una iteración que recorre los elementos de una secuencia ordenada como listas, diccionarios, tuplas, cadenas, etc.
+- - qué es un string
+  - Es una cadena de texto
+- - ¿Qué es un string?
+  - Es una cadena de texto
+- - Tipos de bucles
+  - For y While
+- - Bucles
+  - For y While
+- - Mostrar resultados
+  - Utiliza print para mostrar en la pantalla el resultado
+- - prueba print
+  - para mostrar el resultado hay que escribir print(hola mundo)

@@ -1,0 +1,7 @@
+categories:
+- ejercicio_1_Coder_Squad_Leader
+conversations:
+- - Dame una pista
+  - Recuerda, para declarar variables no puede haber espacios intermedios
+- - ¿Como se declara una variable?
+  - Para crear una variable necesitamos ponerle un nombre descriptivo y sin espacios.

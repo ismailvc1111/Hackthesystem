@@ -21,8 +21,9 @@ class my_bot:
     def __init__(self, name='IA'):
         # Nuestro chatBot
         self.chatbot = ChatBot(name, logic_adapters=['chatterbot.logic.MathematicalEvaluation', 'chatterbot.logic.BestMatch'])
+        self.chatbot_forget()
         # Text_to_speech
-        self.tts_train_symbols()
+        #self.tts_train_symbols()
         self.tok = self.tts_token()
         
     def chatbot_basic_train(self):
@@ -30,16 +31,13 @@ class my_bot:
         trainer = ChatterBotCorpusTrainer(self.chatbot)
         trainer.train(
             "chatterbot.corpus.spanish.greetings",
-            "chatterbot.corpus.spanish.conversations")
+            #"chatterbot.corpus.spanish.conversations"
+        )
         
-    def chatbot_spec_train(self, filename):
+    def chatbot_spec_train(self, filename='./specific_train/custom.yml'):
         # Entrenamiento específico
-        train_list = open(filename, 'r').readlines()
-        trainer = ListTrainer(self.chatbot)
-        trainer.train(['Hola', '¿Que tal?', 
-               'tengo una pregunta', 'si, dime', 
-               '¿Como es la estructura del bucle for?', 'Sería con for(i in range(): y lo que quieras dentro del bucle)',
-               'Gracias', 'De nada'])
+        trainer = ChatterBotCorpusTrainer(self.chatbot)
+        trainer.train(filename)
         
     def chatbot_forget(self):
         self.chatbot.storage.drop()
@@ -64,11 +62,17 @@ class my_bot:
             tokenizer_cases.period_comma,
             tokenizer_cases.other_punctuation])
     
-    def chatbot_response_to_mp3(self, query, filename):
-        response = self.chatbot_response(query)
-        query = pre_processors.word_sub(response.text)
-        gtts = gTTS(text=query, lang='es', tokenizer_func=self.tok)
+    def tts_say_this(self, string, filename='say.mp3'):
+        string = pre_processors.word_sub(string)
+        gtts = gTTS(text=string, lang='es')
         gtts.save(filename) 
+        
+    def chatbot_response_to_mp3(self, query, filename='response.mp3'):
+        response = self.chatbot_response(query)
+        #query = pre_processors.word_sub(response.text)
+        gtts = gTTS(text=response.text, lang='es')
+        gtts.save(filename) 
+        
 
 # Ejemplo de uso
 # bot = my_bot()
